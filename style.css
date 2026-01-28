@@ -3,25 +3,43 @@ body{
     margin: 0;
 }
 
-p{
-    color: red;
-}
 
-h1{
-    color: red;
-}
-
+/*para modificar un elemento o varios utilizamos la propiedad class="" en html  y en css inicia con un punto(.)
+para modificar un elemento en de html utlizamos id="" en el html y en css inicia con un numeral (#) */
 .menu-navegacion{
+    text-align: center;
     background-color: yellowgreen;
     padding: 10px;
     margin: 0;
 }
 
+/* esto es un menu de navegacion en linea*/
 .menu-navegacion li{
     display: inline-block;
 }
 
 .menu-navegacion a {
-    color: red;
+    color: white;
     text-decoration: none;
+}
+
+/*Con la propiedad hover indicamos que cuando pasemos el mouse cambie el comportamiento en este caso pasa a 
+a color rojo*/
+.menu-navegacion a:hover {
+    background-color: red;
+}
+
+/*tomo el contenedor donde se encuentra la imagen y la centro*/
+.imagen-principal{
+    text-align: center; /*esto centra la imagen*/
+    padding: 10px;
+}
+
+.boton-ingresar{
+    text-align: center; /*centra el boton*/
+    padding: 10px;
+}
+
+.boton-ingresar button:hover{
+    background-color: red;
 }
