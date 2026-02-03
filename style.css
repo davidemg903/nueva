@@ -43,3 +43,8 @@ a color rojo*/
 .boton-ingresar button:hover{
     background-color: red;
 }
+
+.boton-boostrap{
+    text-align: center;
+
+}
